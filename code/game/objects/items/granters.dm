@@ -183,6 +183,15 @@
 	remarks = list("<span class ='colossus'>Death can have me, when I am done.", "<span class ='colossus'>Rip and tear.", "<span class ='colossus'>This is where we hold them. This is where they die.", "<span class ='colossus'>Let go of everything.", "<span class ='colossus'>No surrender. No retreat.</span>",)
 	attunement_cost = 5
 
+/obj/item/book/granter/trait/alchemy
+	light_color = "#D8140D"
+	color = "#D8140D"
+/obj/item/book/granter/trait/alchemy/transmutation
+	name = "Fragment of the Alchemist"
+	granted_trait = TRAIT_ALCHEMYKNOWLEDGE
+	traitname = "Alchemy Knowledge"
+	remarks = list("<font color='#D8140D'>[TBD]", "<font color='#D8140D'>[TBD]"<font color='#D8140D'>[TDB.", "<font color='#D8140D'>[TDB]", "<font color='#D8140D'>[TBD]</font>",)
+
 /obj/item/book/granter/trait/acrobat
 	name = "Fragment of the Acrobat"
 	light_color = "#f3fd2bfb"
